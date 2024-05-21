@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/img/404.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    text-align: center;
+    bottom: -35vh;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background: linear-gradient( #04d9ff, white, #fe59c2);
+    border: none;
+    animation: background 0.2s infinite alternate;
+}
+
+@keyframes background {
+    50% {
+      background: white;
+      
+    }
+  }
